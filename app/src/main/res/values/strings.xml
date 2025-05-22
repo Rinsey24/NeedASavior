@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NeedASavior</string>
+    <string name="title_activity_card_product">CardProductActivity</string>
+    <string name="profile_image_description">Profile Image</string>
+</resources>

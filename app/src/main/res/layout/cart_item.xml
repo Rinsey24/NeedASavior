@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/productImageCart"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <TextView
+                android:id="@+id/titleTextViewCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Название"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/titleTextViewCartPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Цена"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/decreaseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="-"/>
+
+                <TextView
+                    android:id="@+id/quantityTextViewCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:padding="8dp"/>
+
+                <Button
+                    android:id="@+id/increaseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="+"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TotalPricetextViewCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="итоговая цена"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/deleteButtonCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Удалить"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

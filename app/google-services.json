@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023476982331",
+    "project_id": "geodatastorage-c6a01",
+    "storage_bucket": "geodatastorage-c6a01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023476982331:android:863aae13781eb6f1ef321e",
+        "android_client_info": {
+          "package_name": "com.rinsey24.needasavior"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmNxtHT91R5ZrSYUqgTmCUuMhutC_Tj40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
